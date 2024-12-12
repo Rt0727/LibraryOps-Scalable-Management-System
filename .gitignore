@@ -1,0 +1,14 @@
+# Terraform files
+.terraform/
+*.tfstate
+*.tfstate.backup
+
+# Docker files
+docker-compose.override.yml
+
+# Python files
+__pycache__/
+*.pyc
+
+# Backup files
+backups/
