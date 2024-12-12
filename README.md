@@ -9,6 +9,7 @@ This project provides a comprehensive setup for a Library Management System usin
 - **Terraform IaC**: Automates the provisioning of database resources.
 - **Bash Scripts**: Simplifies routine tasks like backups and report generation.
 - **CLI Interface**: Provides a user-friendly way to interact with the library system.
+- **Python Integration**: Core logic for managing the library and running unit tests.
 
 ---
 
@@ -35,7 +36,7 @@ This project provides a comprehensive setup for a Library Management System usin
 ### 1️⃣ Clone the Repository
 ```bash
 git clone https://github.com/Rt0727/LibraryOps-Scalable-Management-System.git
-cd LibraryOps Scalable Management System
+cd LibraryOps-Scalable-Management-System
 ```
 
 ### 2️⃣ Configure Terraform
@@ -99,6 +100,18 @@ library-management-system-setup/
 │   ├── Dockerfile                 # Dockerfile for CLI app
 │   └── docker-compose.yml         # Docker Compose for local setup
 │
+├── python/
+│   ├── app/
+│   │   ├── library_management_cli.py  # CLI for library operations
+│   │   ├── database.py               # Database connection and queries
+│   │   ├── reports.py                # Report generation logic
+│   │   ├── utils.py                  # Utility functions
+│   │   └── __init__.py               # Python package init file
+│   └── tests/
+│       ├── test_database.py           # Unit tests for report generation
+│       ├── test_utils.py             # Unit tests for utility functions
+│       └── test_reports.py            # Python package init file
+│
 ├── scripts/
 │   ├── backup.sh                  # Automated database backup script
 │   └── generate_report.sh         # Script to generate overdue and fine reports
@@ -131,3 +144,4 @@ For questions or suggestions, feel free to contact me at:
 
 ## 🏆 Acknowledgments
 Special thanks to the open-source community for providing tools and resources that made this project possible.
+
