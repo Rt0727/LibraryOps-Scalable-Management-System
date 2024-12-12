@@ -1,4 +1,4 @@
-# Library Management System with Reporting and CLI Interface (Setup)
+# Library Management System with Reporting and CLI Interface
 
 ## 📚 Overview
 This project provides a comprehensive setup for a Library Management System using PostgreSQL, Docker, and Terraform. It includes a Command-Line Interface (CLI) tool for managing library operations such as handling books, members, and transactions. Additionally, the project features automation scripts for generating overdue and fine reports and performing database backups.
